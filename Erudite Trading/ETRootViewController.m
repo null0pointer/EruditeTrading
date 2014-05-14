@@ -10,6 +10,8 @@
 
 @interface ETRootViewController ()
 
+@property (strong, nonatomic) UITextView *textView;
+
 @end
 
 @implementation ETRootViewController
@@ -26,7 +28,9 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view.
+    
+    self.textView = [[UITextView alloc] initWithFrame:self.view.bounds];
+    [self.view addSubview:self.textView];
 }
 
 - (void)didReceiveMemoryWarning
