@@ -1,0 +1,423 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		22275C57192399C300124C47 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22275C56192399C300124C47 /* Foundation.framework */; };
+		22275C59192399C300124C47 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22275C58192399C300124C47 /* CoreGraphics.framework */; };
+		22275C5B192399C300124C47 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22275C5A192399C300124C47 /* UIKit.framework */; };
+		22275C61192399C300124C47 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 22275C5F192399C300124C47 /* InfoPlist.strings */; };
+		22275C63192399C300124C47 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 22275C62192399C300124C47 /* main.m */; };
+		22275C67192399C300124C47 /* ETAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 22275C66192399C300124C47 /* ETAppDelegate.m */; };
+		22275C69192399C300124C47 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22275C68192399C300124C47 /* Images.xcassets */; };
+		22275C70192399C300124C47 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22275C6F192399C300124C47 /* XCTest.framework */; };
+		22275C71192399C300124C47 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22275C56192399C300124C47 /* Foundation.framework */; };
+		22275C72192399C300124C47 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22275C5A192399C300124C47 /* UIKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		22275C73192399C300124C47 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 22275C4B192399C200124C47 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22275C52192399C200124C47;
+			remoteInfo = "Erudite Trading";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		22275C53192399C200124C47 /* Erudite Trading.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Erudite Trading.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		22275C56192399C300124C47 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		22275C58192399C300124C47 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		22275C5A192399C300124C47 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		22275C5E192399C300124C47 /* Erudite Trading-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Erudite Trading-Info.plist"; sourceTree = "<group>"; };
+		22275C60192399C300124C47 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		22275C62192399C300124C47 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		22275C64192399C300124C47 /* Erudite Trading-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Erudite Trading-Prefix.pch"; sourceTree = "<group>"; };
+		22275C65192399C300124C47 /* ETAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ETAppDelegate.h; sourceTree = "<group>"; };
+		22275C66192399C300124C47 /* ETAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ETAppDelegate.m; sourceTree = "<group>"; };
+		22275C68192399C300124C47 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		22275C6E192399C300124C47 /* Erudite TradingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Erudite TradingTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		22275C6F192399C300124C47 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		22275C50192399C200124C47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22275C59192399C300124C47 /* CoreGraphics.framework in Frameworks */,
+				22275C5B192399C300124C47 /* UIKit.framework in Frameworks */,
+				22275C57192399C300124C47 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22275C6B192399C300124C47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22275C70192399C300124C47 /* XCTest.framework in Frameworks */,
+				22275C72192399C300124C47 /* UIKit.framework in Frameworks */,
+				22275C71192399C300124C47 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22275C4A192399C200124C47 = {
+			isa = PBXGroup;
+			children = (
+				22275C5C192399C300124C47 /* Erudite Trading */,
+				22275C55192399C200124C47 /* Frameworks */,
+				22275C54192399C200124C47 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		22275C54192399C200124C47 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				22275C53192399C200124C47 /* Erudite Trading.app */,
+				22275C6E192399C300124C47 /* Erudite TradingTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		22275C55192399C200124C47 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				22275C56192399C300124C47 /* Foundation.framework */,
+				22275C58192399C300124C47 /* CoreGraphics.framework */,
+				22275C5A192399C300124C47 /* UIKit.framework */,
+				22275C6F192399C300124C47 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		22275C5C192399C300124C47 /* Erudite Trading */ = {
+			isa = PBXGroup;
+			children = (
+				22275C65192399C300124C47 /* ETAppDelegate.h */,
+				22275C66192399C300124C47 /* ETAppDelegate.m */,
+				22275C68192399C300124C47 /* Images.xcassets */,
+				22275C5D192399C300124C47 /* Supporting Files */,
+			);
+			path = "Erudite Trading";
+			sourceTree = "<group>";
+		};
+		22275C5D192399C300124C47 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				22275C5E192399C300124C47 /* Erudite Trading-Info.plist */,
+				22275C5F192399C300124C47 /* InfoPlist.strings */,
+				22275C62192399C300124C47 /* main.m */,
+				22275C64192399C300124C47 /* Erudite Trading-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		22275C52192399C200124C47 /* Erudite Trading */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22275C7F192399C300124C47 /* Build configuration list for PBXNativeTarget "Erudite Trading" */;
+			buildPhases = (
+				22275C4F192399C200124C47 /* Sources */,
+				22275C50192399C200124C47 /* Frameworks */,
+				22275C51192399C200124C47 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Erudite Trading";
+			productName = "Erudite Trading";
+			productReference = 22275C53192399C200124C47 /* Erudite Trading.app */;
+			productType = "com.apple.product-type.application";
+		};
+		22275C6D192399C300124C47 /* Erudite TradingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22275C82192399C300124C47 /* Build configuration list for PBXNativeTarget "Erudite TradingTests" */;
+			buildPhases = (
+				22275C6A192399C300124C47 /* Sources */,
+				22275C6B192399C300124C47 /* Frameworks */,
+				22275C6C192399C300124C47 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				22275C74192399C300124C47 /* PBXTargetDependency */,
+			);
+			name = "Erudite TradingTests";
+			productName = "Erudite TradingTests";
+			productReference = 22275C6E192399C300124C47 /* Erudite TradingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		22275C4B192399C200124C47 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ET;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Sam Watson";
+				TargetAttributes = {
+					22275C6D192399C300124C47 = {
+						TestTargetID = 22275C52192399C200124C47;
+					};
+				};
+			};
+			buildConfigurationList = 22275C4E192399C200124C47 /* Build configuration list for PBXProject "Erudite Trading" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 22275C4A192399C200124C47;
+			productRefGroup = 22275C54192399C200124C47 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				22275C52192399C200124C47 /* Erudite Trading */,
+				22275C6D192399C300124C47 /* Erudite TradingTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		22275C51192399C200124C47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22275C61192399C300124C47 /* InfoPlist.strings in Resources */,
+				22275C69192399C300124C47 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22275C6C192399C300124C47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		22275C4F192399C200124C47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22275C63192399C300124C47 /* main.m in Sources */,
+				22275C67192399C300124C47 /* ETAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22275C6A192399C300124C47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		22275C74192399C300124C47 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 22275C52192399C200124C47 /* Erudite Trading */;
+			targetProxy = 22275C73192399C300124C47 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		22275C5F192399C300124C47 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22275C60192399C300124C47 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		22275C7D192399C300124C47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		22275C7E192399C300124C47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		22275C80192399C300124C47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Erudite Trading/Erudite Trading-Prefix.pch";
+				INFOPLIST_FILE = "Erudite Trading/Erudite Trading-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		22275C81192399C300124C47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Erudite Trading/Erudite Trading-Prefix.pch";
+				INFOPLIST_FILE = "Erudite Trading/Erudite Trading-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		22275C83192399C300124C47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Erudite Trading.app/Erudite Trading";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Erudite Trading/Erudite Trading-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Erudite TradingTests/Erudite TradingTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		22275C84192399C300124C47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Erudite Trading.app/Erudite Trading";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Erudite Trading/Erudite Trading-Prefix.pch";
+				INFOPLIST_FILE = "Erudite TradingTests/Erudite TradingTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		22275C4E192399C200124C47 /* Build configuration list for PBXProject "Erudite Trading" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22275C7D192399C300124C47 /* Debug */,
+				22275C7E192399C300124C47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22275C7F192399C300124C47 /* Build configuration list for PBXNativeTarget "Erudite Trading" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22275C80192399C300124C47 /* Debug */,
+				22275C81192399C300124C47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		22275C82192399C300124C47 /* Build configuration list for PBXNativeTarget "Erudite TradingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22275C83192399C300124C47 /* Debug */,
+				22275C84192399C300124C47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 22275C4B192399C200124C47 /* Project object */;
+}
