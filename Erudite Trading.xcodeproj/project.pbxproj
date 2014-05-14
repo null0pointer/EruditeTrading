@@ -17,6 +17,7 @@
 		22275C70192399C300124C47 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22275C6F192399C300124C47 /* XCTest.framework */; };
 		22275C71192399C300124C47 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22275C56192399C300124C47 /* Foundation.framework */; };
 		22275C72192399C300124C47 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22275C5A192399C300124C47 /* UIKit.framework */; };
+		22275C8719239B1700124C47 /* ETRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22275C8619239B1700124C47 /* ETRootViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,8 @@
 		22275C68192399C300124C47 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		22275C6E192399C300124C47 /* Erudite TradingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Erudite TradingTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		22275C6F192399C300124C47 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		22275C8519239B1700124C47 /* ETRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETRootViewController.h; sourceTree = "<group>"; };
+		22275C8619239B1700124C47 /* ETRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ETRootViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +106,8 @@
 			children = (
 				22275C65192399C300124C47 /* ETAppDelegate.h */,
 				22275C66192399C300124C47 /* ETAppDelegate.m */,
+				22275C8519239B1700124C47 /* ETRootViewController.h */,
+				22275C8619239B1700124C47 /* ETRootViewController.m */,
 				22275C68192399C300124C47 /* Images.xcassets */,
 				22275C5D192399C300124C47 /* Supporting Files */,
 			);
@@ -217,6 +222,7 @@
 			files = (
 				22275C63192399C300124C47 /* main.m in Sources */,
 				22275C67192399C300124C47 /* ETAppDelegate.m in Sources */,
+				22275C8719239B1700124C47 /* ETRootViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
