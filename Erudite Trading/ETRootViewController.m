@@ -8,9 +8,12 @@
 
 #import "ETRootViewController.h"
 
+#import <Bully/Bully.h>
+
 @interface ETRootViewController ()
 
 @property (strong, nonatomic) UITextView *textView;
+@property (strong, nonatomic) BLYClient *bullyClient;
 
 @end
 
@@ -30,7 +33,15 @@
     [super viewDidLoad];
     
     self.textView = [[UITextView alloc] initWithFrame:self.view.bounds];
+    self.textView.editable = NO;
     [self.view addSubview:self.textView];
+    
+    self.bullyClient = [[BLYClient alloc] initWithAppKey:@"de504dc5763aeef9ff52" delegate:nil];
+    BLYChannel *chatChannel = [self.bullyClient subscribeToChannelWithName:@"live_trades"];
+    
+    [chatChannel bindToEvent:@"trade" block:^(id message) {
+        self.textView.text = [self.textView.text stringByAppendingString:[NSString stringWithFormat:@"%@\n\n", [message description]]];
+    }];
 }
 
 - (void)didReceiveMemoryWarning

@@ -27,6 +27,9 @@
 		22276E131923A70C00124C47 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 22276E081923A70C00124C47 /* AFURLRequestSerialization.m */; };
 		22276E141923A70C00124C47 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 22276E0A1923A70C00124C47 /* AFURLResponseSerialization.m */; };
 		22276E151923A70C00124C47 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 22276E0C1923A70C00124C47 /* AFURLSessionManager.m */; };
+		229E34D41924DDDF0073AF7E /* libBully.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 229E34CD1924DD7A0073AF7E /* libBully.a */; };
+		229E34D61924DDEC0073AF7E /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 229E34D51924DDEC0073AF7E /* CFNetwork.framework */; };
+		229E34D81924E10E0073AF7E /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 229E34D71924E10E0073AF7E /* libicucore.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,34 @@
 			proxyType = 1;
 			remoteGlobalIDString = 22275C52192399C200124C47;
 			remoteInfo = "Erudite Trading";
+		};
+		229E34CC1924DD7A0073AF7E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 229E34C51924DD7A0073AF7E /* Bully.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = B2587E4B1579E740009D7B44;
+			remoteInfo = Bully;
+		};
+		229E34CE1924DD7A0073AF7E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 229E34C51924DD7A0073AF7E /* Bully.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = B2FB4873158AF9B20067FB00;
+			remoteInfo = BullyMac;
+		};
+		229E34D01924DD7A0073AF7E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 229E34C51924DD7A0073AF7E /* Bully.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = B2EB6BBC15DB69FC0035AD92;
+			remoteInfo = BullyMacLibrary;
+		};
+		229E34D21924DDBF0073AF7E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 229E34C51924DD7A0073AF7E /* Bully.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = B2587E4A1579E740009D7B44;
+			remoteInfo = Bully;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -74,6 +105,9 @@
 		22276E0A1923A70C00124C47 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
 		22276E0B1923A70C00124C47 /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
 		22276E0C1923A70C00124C47 /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
+		229E34C51924DD7A0073AF7E /* Bully.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Bully.xcodeproj; path = bully/Bully.xcodeproj; sourceTree = "<group>"; };
+		229E34D51924DDEC0073AF7E /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		229E34D71924E10E0073AF7E /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +115,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				229E34D81924E10E0073AF7E /* libicucore.dylib in Frameworks */,
+				229E34D61924DDEC0073AF7E /* CFNetwork.framework in Frameworks */,
+				229E34D41924DDDF0073AF7E /* libBully.a in Frameworks */,
 				22275C59192399C300124C47 /* CoreGraphics.framework in Frameworks */,
 				22275C5B192399C300124C47 /* UIKit.framework in Frameworks */,
 				22275C57192399C300124C47 /* Foundation.framework in Frameworks */,
@@ -107,6 +144,7 @@
 				22275C55192399C200124C47 /* Frameworks */,
 				22275C54192399C200124C47 /* Products */,
 				22276DF91923A70C00124C47 /* AFNetworking */,
+				229E34C51924DD7A0073AF7E /* Bully.xcodeproj */,
 			);
 			sourceTree = "<group>";
 		};
@@ -122,6 +160,8 @@
 		22275C55192399C200124C47 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				229E34D71924E10E0073AF7E /* libicucore.dylib */,
+				229E34D51924DDEC0073AF7E /* CFNetwork.framework */,
 				22275C56192399C300124C47 /* Foundation.framework */,
 				22275C58192399C300124C47 /* CoreGraphics.framework */,
 				22275C5A192399C300124C47 /* UIKit.framework */,
@@ -181,6 +221,16 @@
 			path = AFNetworking/AFNetworking;
 			sourceTree = "<group>";
 		};
+		229E34C61924DD7A0073AF7E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				229E34CD1924DD7A0073AF7E /* libBully.a */,
+				229E34CF1924DD7A0073AF7E /* Bully.framework */,
+				229E34D11924DD7A0073AF7E /* libBullyMacLibrary.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -195,6 +245,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				229E34D31924DDBF0073AF7E /* PBXTargetDependency */,
 			);
 			name = "Erudite Trading";
 			productName = "Erudite Trading";
@@ -244,6 +295,12 @@
 			mainGroup = 22275C4A192399C200124C47;
 			productRefGroup = 22275C54192399C200124C47 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 229E34C61924DD7A0073AF7E /* Products */;
+					ProjectRef = 229E34C51924DD7A0073AF7E /* Bully.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				22275C52192399C200124C47 /* Erudite Trading */,
@@ -251,6 +308,30 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		229E34CD1924DD7A0073AF7E /* libBully.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libBully.a;
+			remoteRef = 229E34CC1924DD7A0073AF7E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		229E34CF1924DD7A0073AF7E /* Bully.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Bully.framework;
+			remoteRef = 229E34CE1924DD7A0073AF7E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		229E34D11924DD7A0073AF7E /* libBullyMacLibrary.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libBullyMacLibrary.a;
+			remoteRef = 229E34D01924DD7A0073AF7E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		22275C51192399C200124C47 /* Resources */ = {
@@ -305,6 +386,11 @@
 			isa = PBXTargetDependency;
 			target = 22275C52192399C200124C47 /* Erudite Trading */;
 			targetProxy = 22275C73192399C300124C47 /* PBXContainerItemProxy */;
+		};
+		229E34D31924DDBF0073AF7E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Bully;
+			targetProxy = 229E34D21924DDBF0073AF7E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -399,7 +485,16 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Erudite Trading/Erudite Trading-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					bully,
+				);
 				INFOPLIST_FILE = "Erudite Trading/Erudite Trading-Info.plist";
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -412,7 +507,16 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Erudite Trading/Erudite Trading-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					bully,
+				);
 				INFOPLIST_FILE = "Erudite Trading/Erudite Trading-Info.plist";
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
