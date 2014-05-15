@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>41720EDB-60E8-42C4-A51E-953FFCEA1FD4</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Erudite Trading</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>9A32E5BA-1466-41FB-BFB7-B3EF4FEB045C</key>
+		<string>ssh://github.com/null0pointer/EruditeTrading.git</string>
+		<key>E1F53DC8-66DC-4267-B0C9-E531426A9B29</key>
+		<string>https://github.com/AFNetworking/AFNetworking.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Erudite Trading.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>9A32E5BA-1466-41FB-BFB7-B3EF4FEB045C</key>
+		<string>../..</string>
+		<key>E1F53DC8-66DC-4267-B0C9-E531426A9B29</key>
+		<string>../../AFNetworking</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/null0pointer/EruditeTrading.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>9A32E5BA-1466-41FB-BFB7-B3EF4FEB045C</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>E1F53DC8-66DC-4267-B0C9-E531426A9B29</string>
+			<key>IDESourceControlWCCName</key>
+			<string>AFNetworking</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>9A32E5BA-1466-41FB-BFB7-B3EF4FEB045C</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Erudite Trading</string>
+		</dict>
+	</array>
+</dict>
+</plist>

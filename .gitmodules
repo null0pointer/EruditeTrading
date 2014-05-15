@@ -1,6 +1,3 @@
 [submodule "AFNetworking"]
 	path = AFNetworking
 	url = https://github.com/AFNetworking/AFNetworking.git
-[submodule "libPusher"]
-	path = libPusher
-	url = https://github.com/lukeredpath/libPusher.git
