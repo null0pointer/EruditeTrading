@@ -30,6 +30,7 @@
 		229E34D41924DDDF0073AF7E /* libBully.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 229E34CD1924DD7A0073AF7E /* libBully.a */; };
 		229E34D61924DDEC0073AF7E /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 229E34D51924DDEC0073AF7E /* CFNetwork.framework */; };
 		229E34D81924E10E0073AF7E /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 229E34D71924E10E0073AF7E /* libicucore.dylib */; };
+		229E34DE1924E7160073AF7E /* ETBitstampConnector.m in Sources */ = {isa = PBXBuildFile; fileRef = 229E34DD1924E7160073AF7E /* ETBitstampConnector.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -108,6 +109,8 @@
 		229E34C51924DD7A0073AF7E /* Bully.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Bully.xcodeproj; path = bully/Bully.xcodeproj; sourceTree = "<group>"; };
 		229E34D51924DDEC0073AF7E /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		229E34D71924E10E0073AF7E /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
+		229E34DC1924E7160073AF7E /* ETBitstampConnector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETBitstampConnector.h; sourceTree = "<group>"; };
+		229E34DD1924E7160073AF7E /* ETBitstampConnector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ETBitstampConnector.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -177,6 +180,8 @@
 				22275C66192399C300124C47 /* ETAppDelegate.m */,
 				22275C8519239B1700124C47 /* ETRootViewController.h */,
 				22275C8619239B1700124C47 /* ETRootViewController.m */,
+				229E34DC1924E7160073AF7E /* ETBitstampConnector.h */,
+				229E34DD1924E7160073AF7E /* ETBitstampConnector.m */,
 				22275C68192399C300124C47 /* Images.xcassets */,
 				22275C5D192399C300124C47 /* Supporting Files */,
 			);
@@ -358,6 +363,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				22276E0D1923A70C00124C47 /* AFHTTPRequestOperation.m in Sources */,
+				229E34DE1924E7160073AF7E /* ETBitstampConnector.m in Sources */,
 				22275C63192399C300124C47 /* main.m in Sources */,
 				22276E0E1923A70C00124C47 /* AFHTTPRequestOperationManager.m in Sources */,
 				22276E101923A70C00124C47 /* AFNetworkReachabilityManager.m in Sources */,
