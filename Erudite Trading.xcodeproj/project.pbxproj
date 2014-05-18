@@ -27,7 +27,7 @@
 		22276E131923A70C00124C47 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 22276E081923A70C00124C47 /* AFURLRequestSerialization.m */; };
 		22276E141923A70C00124C47 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 22276E0A1923A70C00124C47 /* AFURLResponseSerialization.m */; };
 		22276E151923A70C00124C47 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 22276E0C1923A70C00124C47 /* AFURLSessionManager.m */; };
-		229E34D41924DDDF0073AF7E /* libBully.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 229E34CD1924DD7A0073AF7E /* libBully.a */; };
+		22707FDA1928A482001EBC60 /* libBully.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 229E34CD1924DD7A0073AF7E /* libBully.a */; };
 		229E34D61924DDEC0073AF7E /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 229E34D51924DDEC0073AF7E /* CFNetwork.framework */; };
 		229E34D81924E10E0073AF7E /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 229E34D71924E10E0073AF7E /* libicucore.dylib */; };
 		229E34DE1924E7160073AF7E /* ETBitstampConnector.m in Sources */ = {isa = PBXBuildFile; fileRef = 229E34DD1924E7160073AF7E /* ETBitstampConnector.m */; };
@@ -118,9 +118,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22707FDA1928A482001EBC60 /* libBully.a in Frameworks */,
 				229E34D81924E10E0073AF7E /* libicucore.dylib in Frameworks */,
 				229E34D61924DDEC0073AF7E /* CFNetwork.framework in Frameworks */,
-				229E34D41924DDDF0073AF7E /* libBully.a in Frameworks */,
 				22275C59192399C300124C47 /* CoreGraphics.framework in Frameworks */,
 				22275C5B192399C300124C47 /* UIKit.framework in Frameworks */,
 				22275C57192399C300124C47 /* Foundation.framework in Frameworks */,

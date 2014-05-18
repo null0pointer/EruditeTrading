@@ -8,12 +8,11 @@
 
 #import "ETRootViewController.h"
 
-#import <Bully/Bully.h>
+#import "ETBitstampConnector.h"
 
 @interface ETRootViewController ()
 
 @property (strong, nonatomic) UITextView *textView;
-@property (strong, nonatomic) BLYClient *bullyClient;
 
 @end
 
@@ -36,11 +35,10 @@
     self.textView.editable = NO;
     [self.view addSubview:self.textView];
     
-    self.bullyClient = [[BLYClient alloc] initWithAppKey:@"de504dc5763aeef9ff52" delegate:nil];
-    BLYChannel *chatChannel = [self.bullyClient subscribeToChannelWithName:@"live_trades"];
-    
-    [chatChannel bindToEvent:@"trade" block:^(id message) {
-        self.textView.text = [self.textView.text stringByAppendingString:[NSString stringWithFormat:@"%@\n\n", [message description]]];
+    [[ETBitstampConnector shared] accountBalanceWithSuccess:^(id responseObject) {
+        self.textView.text = [responseObject description];
+    } failure:^(NSError *error) {
+        NSLog(@"ERROR: %@", error.description);
     }];
 }
 

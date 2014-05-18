@@ -24,6 +24,14 @@ typedef void (^ETBitstampConnectorFailureBlock)(NSError *error);
 - (void)subscribeToLiveTrades:(ETBitstampConnectorTradeBlock)tradeBlock;
 - (void)subscribeToLiveOrders:(ETBitstampConnectorOrderBlock)orderBlock;
 
+#pragma mark - Public API Functions -
+
+- (void)getTickerWithSuccess:(ETBitstampConnectorSuccessBlock)success
+                     failure:(ETBitstampConnectorFailureBlock)failure;
+
+- (void)getOrderBookWithSuccess:(ETBitstampConnectorSuccessBlock)success
+                        failure:(ETBitstampConnectorFailureBlock)failure;
+
 #pragma mark - Private API Functions -
 
 - (void)accountBalanceWithSuccess:(ETBitstampConnectorSuccessBlock)success
