@@ -31,6 +31,8 @@
 		229E34D61924DDEC0073AF7E /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 229E34D51924DDEC0073AF7E /* CFNetwork.framework */; };
 		229E34D81924E10E0073AF7E /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 229E34D71924E10E0073AF7E /* libicucore.dylib */; };
 		229E34DE1924E7160073AF7E /* ETBitstampConnector.m in Sources */ = {isa = PBXBuildFile; fileRef = 229E34DD1924E7160073AF7E /* ETBitstampConnector.m */; };
+		22CA024D192CC80900A3CAF6 /* libPKRevealController.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 22CA024C192CC7D700A3CAF6 /* libPKRevealController.a */; };
+		22CA0253192CCA1900A3CAF6 /* ETMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22CA0252192CCA1900A3CAF6 /* ETMenuViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +70,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = B2587E4A1579E740009D7B44;
 			remoteInfo = Bully;
+		};
+		22CA024B192CC7D700A3CAF6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 22CA0245192CC7D700A3CAF6 /* PKRevealController.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F9621E7B1815246000469E41;
+			remoteInfo = PKRevealController;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -111,6 +120,11 @@
 		229E34D71924E10E0073AF7E /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
 		229E34DC1924E7160073AF7E /* ETBitstampConnector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETBitstampConnector.h; sourceTree = "<group>"; };
 		229E34DD1924E7160073AF7E /* ETBitstampConnector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ETBitstampConnector.m; sourceTree = "<group>"; };
+		22CA0245192CC7D700A3CAF6 /* PKRevealController.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = PKRevealController.xcodeproj; path = PKRevealController/Source/PKRevealController.xcodeproj; sourceTree = "<group>"; };
+		22CA024E192CC87000A3CAF6 /* PKRevealController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PKRevealController.h; path = PKRevealController/Headers/PKRevealController.h; sourceTree = "<group>"; };
+		22CA024F192CC87000A3CAF6 /* UIViewController+PKRevealController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIViewController+PKRevealController.h"; path = "PKRevealController/Headers/UIViewController+PKRevealController.h"; sourceTree = "<group>"; };
+		22CA0251192CCA1900A3CAF6 /* ETMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETMenuViewController.h; sourceTree = "<group>"; };
+		22CA0252192CCA1900A3CAF6 /* ETMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ETMenuViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +132,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22CA024D192CC80900A3CAF6 /* libPKRevealController.a in Frameworks */,
 				22707FDA1928A482001EBC60 /* libBully.a in Frameworks */,
 				229E34D81924E10E0073AF7E /* libicucore.dylib in Frameworks */,
 				229E34D61924DDEC0073AF7E /* CFNetwork.framework in Frameworks */,
@@ -148,6 +163,8 @@
 				22275C54192399C200124C47 /* Products */,
 				22276DF91923A70C00124C47 /* AFNetworking */,
 				229E34C51924DD7A0073AF7E /* Bully.xcodeproj */,
+				22CA0245192CC7D700A3CAF6 /* PKRevealController.xcodeproj */,
+				22CA0250192CC87300A3CAF6 /* PKRevealController Headers */,
 			);
 			sourceTree = "<group>";
 		};
@@ -178,6 +195,8 @@
 			children = (
 				22275C65192399C300124C47 /* ETAppDelegate.h */,
 				22275C66192399C300124C47 /* ETAppDelegate.m */,
+				22CA0251192CCA1900A3CAF6 /* ETMenuViewController.h */,
+				22CA0252192CCA1900A3CAF6 /* ETMenuViewController.m */,
 				22275C8519239B1700124C47 /* ETRootViewController.h */,
 				22275C8619239B1700124C47 /* ETRootViewController.m */,
 				229E34DC1924E7160073AF7E /* ETBitstampConnector.h */,
@@ -234,6 +253,23 @@
 				229E34D11924DD7A0073AF7E /* libBullyMacLibrary.a */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		22CA0246192CC7D700A3CAF6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				22CA024C192CC7D700A3CAF6 /* libPKRevealController.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		22CA0250192CC87300A3CAF6 /* PKRevealController Headers */ = {
+			isa = PBXGroup;
+			children = (
+				22CA024E192CC87000A3CAF6 /* PKRevealController.h */,
+				22CA024F192CC87000A3CAF6 /* UIViewController+PKRevealController.h */,
+			);
+			name = "PKRevealController Headers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -305,6 +341,10 @@
 					ProductGroup = 229E34C61924DD7A0073AF7E /* Products */;
 					ProjectRef = 229E34C51924DD7A0073AF7E /* Bully.xcodeproj */;
 				},
+				{
+					ProductGroup = 22CA0246192CC7D700A3CAF6 /* Products */;
+					ProjectRef = 22CA0245192CC7D700A3CAF6 /* PKRevealController.xcodeproj */;
+				},
 			);
 			projectRoot = "";
 			targets = (
@@ -334,6 +374,13 @@
 			fileType = archive.ar;
 			path = libBullyMacLibrary.a;
 			remoteRef = 229E34D01924DD7A0073AF7E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		22CA024C192CC7D700A3CAF6 /* libPKRevealController.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libPKRevealController.a;
+			remoteRef = 22CA024B192CC7D700A3CAF6 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -372,6 +419,7 @@
 				22276E111923A70C00124C47 /* AFSecurityPolicy.m in Sources */,
 				22276E0F1923A70C00124C47 /* AFHTTPSessionManager.m in Sources */,
 				22276E131923A70C00124C47 /* AFURLRequestSerialization.m in Sources */,
+				22CA0253192CCA1900A3CAF6 /* ETMenuViewController.m in Sources */,
 				22276E151923A70C00124C47 /* AFURLSessionManager.m in Sources */,
 				22275C67192399C300124C47 /* ETAppDelegate.m in Sources */,
 				22275C8719239B1700124C47 /* ETRootViewController.m in Sources */,

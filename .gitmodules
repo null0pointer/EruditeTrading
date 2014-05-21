@@ -4,3 +4,6 @@
 [submodule "bully"]
 	path = bully
 	url = https://github.com/samsoffes/bully.git
+[submodule "PKRevealController"]
+	path = PKRevealController
+	url = https://github.com/pkluz/PKRevealController.git

@@ -8,6 +8,8 @@
 
 #import "ETAppDelegate.h"
 
+#import "PKRevealController.h"
+#import "ETMenuViewController.h"
 #import "ETRootViewController.h"
 
 @implementation ETAppDelegate
@@ -16,9 +18,11 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     
+    ETMenuViewController *menuViewController = [[ETMenuViewController alloc] init];
     ETRootViewController *rootViewController = [[ETRootViewController alloc] init];
-    UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:rootViewController];
-    self.window.rootViewController = navigationController;
+    PKRevealController *revealController = [PKRevealController revealControllerWithFrontViewController:rootViewController leftViewController:menuViewController];
+//    UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:rootViewController];
+    self.window.rootViewController = revealController;
     
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
